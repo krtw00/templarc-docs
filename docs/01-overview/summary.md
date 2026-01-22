@@ -85,6 +85,6 @@ flowchart TB
 
 ## 関連ドキュメント
 
-- [goals.md](./goals.md) - 目的・解決する課題
-- [scope.md](./scope.md) - スコープ・対象外
-- [context.md](../02-architecture/context.md) - システム境界の詳細
+- [目的・解決する課題](./goals.md) - 課題一覧と成功基準の定義
+- [スコープ・対象外](./scope.md) - 対象範囲とフェーズ分割
+- [システム境界・外部連携](../02-architecture/context.md) - C4 Context図と外部システム定義

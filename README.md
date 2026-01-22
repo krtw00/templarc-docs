@@ -18,7 +18,8 @@ templarc-docs は、ソフトウェアプロジェクトの設計ドキュメン
 ```
 docs/
 ├── 00-index.md              # ナビゲーション
-├── 00-writing-guide.md      # 記載規範
+├── 00-writing-guide.md      # 記載規範（文章品質）
+├── 00-format-guide.md       # フォーマット規範（構造・メタ情報）
 ├── 00-git-guide.md          # Git規範
 ├── 01-overview/             # 基本（全体像）
 │   ├── summary.md
