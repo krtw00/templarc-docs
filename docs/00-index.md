@@ -39,6 +39,7 @@ flowchart LR
 |--------------|------|
 | [00-index.md](./00-index.md) | 本ドキュメント。全体ナビゲーション |
 | [00-writing-guide.md](./00-writing-guide.md) | 記載規範 |
+| [00-git-guide.md](./00-git-guide.md) | Git規範（コミット・ブランチ・変更履歴） |
 
 ### 01 - Overview（全体像）
 
@@ -104,3 +105,4 @@ flowchart LR
 ## 関連ドキュメント
 
 - [00-writing-guide.md](./00-writing-guide.md) - 記載規範
+- [00-git-guide.md](./00-git-guide.md) - Git規範
