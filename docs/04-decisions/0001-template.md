@@ -1,3 +1,9 @@
+---
+depends_on: []
+tags: [decisions, adr, template]
+ai_summary: "ADR（Architecture Decision Record）の記載テンプレートとガイドライン"
+---
+
 # ADR-0001: ADRテンプレート
 
 > Status: Active

@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ./summary.md
+tags: [overview, goals, problems]
+ai_summary: "プロジェクトの目的、解決する課題一覧、成功基準を定義"
+---
+
 # 目的・解決する課題
 
 > Status: Draft

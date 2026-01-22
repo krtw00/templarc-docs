@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ./structure.md
+tags: [architecture, technology, stack]
+ai_summary: "技術選定の一覧と選定理由・代替案・バージョン管理方針を定義"
+---
+
 # 技術スタック
 
 > Status: Draft

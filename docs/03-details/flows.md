@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ../02-architecture/structure.md
+tags: [details, flows, sequence, process]
+ai_summary: "主要業務フローのシーケンス図・処理ステップ・エラーケースを定義"
+---
+
 # 主要フロー
 
 > Status: Draft

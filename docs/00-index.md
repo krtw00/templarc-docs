@@ -1,3 +1,9 @@
+---
+depends_on: []
+tags: [navigation, index]
+ai_summary: "全ドキュメントへのナビゲーションハブ"
+---
+
 # ドキュメントインデックス
 
 > Status: Active

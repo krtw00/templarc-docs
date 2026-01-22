@@ -1,3 +1,11 @@
+---
+depends_on:
+  - ../02-architecture/structure.md
+  - ./data-model.md
+tags: [details, api, endpoints, rest]
+ai_summary: "APIエンドポイント一覧・リクエスト/レスポンス仕様・認証・エラー形式を定義"
+---
+
 # API設計
 
 > Status: Draft

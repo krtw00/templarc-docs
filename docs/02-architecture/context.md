@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ../01-overview/summary.md
+tags: [architecture, c4, context, boundary]
+ai_summary: "システム境界と外部システム連携をC4 Context図で定義"
+---
+
 # システム境界・外部連携
 
 > Status: Draft

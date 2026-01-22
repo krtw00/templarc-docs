@@ -1,3 +1,9 @@
+---
+depends_on: []
+tags: [overview, summary]
+ai_summary: "プロジェクトの1ページ概要（目的・主要機能・対象ユーザー・システム構成図）"
+---
+
 # プロジェクト概要
 
 > Status: Draft

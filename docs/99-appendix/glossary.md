@@ -1,3 +1,9 @@
+---
+depends_on: []
+tags: [appendix, glossary, terminology]
+ai_summary: "ドメイン用語・技術用語・システム固有用語の定義と廃止用語の記録"
+---
+
 # 用語集
 
 > Status: Draft

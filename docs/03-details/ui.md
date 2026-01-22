@@ -1,3 +1,11 @@
+---
+depends_on:
+  - ../02-architecture/structure.md
+  - ./flows.md
+tags: [details, ui, screens, interactions]
+ai_summary: "画面一覧・画面遷移図・UI要素・レスポンシブ対応を定義"
+---
+
 # UI設計
 
 > Status: Draft

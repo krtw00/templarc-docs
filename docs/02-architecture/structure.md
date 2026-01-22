@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ./context.md
+tags: [architecture, c4, container, components]
+ai_summary: "主要コンポーネントの構成・責務・通信方式をC4 Container図で定義"
+---
+
 # 主要コンポーネント構成
 
 > Status: Draft

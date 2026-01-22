@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ../02-architecture/structure.md
+tags: [details, data, er-diagram, schema]
+ai_summary: "エンティティ定義・ER図・状態遷移・インデックス設計を定義"
+---
+
 # データモデル
 
 > Status: Draft

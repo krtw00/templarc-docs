@@ -1,3 +1,10 @@
+---
+depends_on:
+  - ./goals.md
+tags: [overview, scope, phases]
+ai_summary: "対象範囲・対象外・フェーズ分割・前提条件・制約を定義"
+---
+
 # スコープ・対象外
 
 > Status: Draft
