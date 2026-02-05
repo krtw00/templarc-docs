@@ -16,8 +16,10 @@ templarc-docs は、ソフトウェアプロジェクトの設計ドキュメン
 ## 構造
 
 ```
-docs/
-├── 00-index.md              # ナビゲーション
+design/
+├── 00-index.md              # 設計ドキュメントの目次
+├── 00-getting-started.md     # 導入手順（はじめに）
+├── 00-template-guide.md      # どこに何を書くか
 ├── 00-writing-guide.md      # 記載規範（文章品質）
 ├── 00-format-guide.md       # フォーマット規範（構造・メタ情報）
 ├── 00-git-guide.md          # Git規範
@@ -38,6 +40,15 @@ docs/
 │   └── 0001-template.md
 └── 99-appendix/
     └── glossary.md          # 用語集
+
+docs/
+├── 00-index.md              # 利用者向けドキュメントの目次
+├── 00-user-docs-guide.md     # 利用者向けドキュメント規範
+├── quickstart.md
+├── how-to.md
+├── reference.md
+├── troubleshooting.md
+└── faq.md
 ```
 
 ## 使い方
@@ -51,8 +62,15 @@ gh repo create my-project-docs --template krtw00/templarc-docs
 ### 2. 手動でコピー
 
 1. このリポジトリをクローン
-2. `docs/` ディレクトリを自分のプロジェクトにコピー
-3. 各テンプレートの `{プレースホルダー}` を実際の内容に置き換え
+2. `design/` ディレクトリを自分のプロジェクトにコピー
+3. 利用者向けドキュメントが必要な場合は `docs/` もコピー
+4. 各テンプレートの `{プレースホルダー}` を実際の内容に置き換え
+
+導入後は、以下を参照。
+
+- [design/00-getting-started.md](design/00-getting-started.md) - 導入手順と運用の最小ルール
+- [design/00-template-guide.md](design/00-template-guide.md) - どこに何を書くか
+- [docs/00-index.md](docs/00-index.md) - 利用者向けドキュメントの目次
 
 ## 読み方
 
@@ -72,7 +90,8 @@ flowchart LR
 
 ## 記載規範
 
-詳細は [docs/00-writing-guide.md](docs/00-writing-guide.md) を参照。
+設計ドキュメントは [design/00-writing-guide.md](design/00-writing-guide.md) を参照。
+利用者向けドキュメントは [docs/00-user-docs-guide.md](docs/00-user-docs-guide.md) を参照。
 
 ### 主なルール
 

@@ -172,8 +172,8 @@ ai_summary: "このドキュメントの内容を1文で要約"
 番号付きディレクトリ + ケバブケースの英語ファイル名：
 
 ```
-docs/01-overview/summary.md
-docs/02-architecture/context.md
+design/01-overview/summary.md
+design/02-architecture/context.md
 ```
 
 ### ADR（Architecture Decision Record）
@@ -181,8 +181,8 @@ docs/02-architecture/context.md
 4桁番号 + ケバブケース：
 
 ```
-04-decisions/0001-template.md
-04-decisions/0002-use-typescript.md
+design/04-decisions/0001-template.md
+design/04-decisions/0002-use-typescript.md
 ```
 
 ### GitHub標準ファイル

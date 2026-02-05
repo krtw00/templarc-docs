@@ -32,7 +32,7 @@ ai_summary: "ADR（Architecture Decision Record）の記載テンプレートと
 
 ```
 04-decisions/
-├── 0001-adr-template.md
+├── 0001-template.md
 ├── 0002-use-typescript.md
 ├── 0003-adopt-postgresql.md
 └── ...

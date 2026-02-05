@@ -8,16 +8,21 @@
 
 ### Added
 
-- 00-format-guide.md（フォーマット規範）
-- 00-git-guide.md（Git規範）
+- design/00-format-guide.md（フォーマット規範）
+- design/00-getting-started.md（導入手順）
+- design/00-template-guide.md（配置ガイド）
+- docs/00-user-docs-guide.md（ユーザードキュメント規範）
+- design/00-git-guide.md（Git規範）
 - DESIGN.md（設計思想）
+- docs/（利用者向けドキュメントテンプレート）
 - YAML Front Matter を全テンプレートファイルに導入
 - 記載規範に分量ガイドライン・文章品質規範・自己完結性規範・冗長性規範を追加
 - コミットメッセージ規範・ブランチ命名規則を追加
 
 ### Changed
 
-- 00-writing-guide.md を記載規範（テキスト品質）とフォーマット規範（構造）に分割
+- design/00-writing-guide.md を記載規範（テキスト品質）とフォーマット規範（構造）に分割
+- 設計（`design/`）と利用者向け（`docs/`）のドキュメントを分離
 
 ### Removed
 
