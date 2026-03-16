@@ -1,6 +1,6 @@
 # templarc-docs
 
-[日本語](README.ja.md) | English
+日本語 | [English](README.md)
 
 設計ドキュメントテンプレート - Design Document Template
 
