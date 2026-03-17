@@ -1,14 +1,14 @@
 ---
 depends_on:
-  - ../design/00-writing-guide.md
-  - ../design/00-format-guide.md
+  - ../../kits/templarc-core/design/00-writing-guide.md
+  - ../../kits/templarc-core/design/00-format-guide.md
 tags: [governance, user-docs, documentation]
 ai_summary: "ユーザー向けドキュメント（利用者向け）の構成と記述ルールを定義"
 ---
 
 # ユーザードキュメント規範
 
-> Status: Active
+> Status: Deprecated
 > 最終更新: YYYY-MM-DD
 
 本ドキュメントは、プロジェクトの利用者向けドキュメント（使い方、FAQ、トラブルシュート等）の書き方を定義する。
@@ -19,7 +19,7 @@ ai_summary: "ユーザー向けドキュメント（利用者向け）の構成�
 ## 適用範囲
 
 本規範は `docs/` ディレクトリ配下に適用する。
-構造・メタ情報は[フォーマット規範](../design/00-format-guide.md)に従う。
+構造・メタ情報は[フォーマット規範](../../kits/templarc-core/design/00-format-guide.md)に従う。
 
 ---
 
@@ -61,5 +61,5 @@ ai_summary: "ユーザー向けドキュメント（利用者向け）の構成�
 
 ## 関連ドキュメント
 
-- [00-writing-guide.md](../design/00-writing-guide.md) - 文章品質（曖昧表現、自己完結性、冗長性）
-- [00-format-guide.md](../design/00-format-guide.md) - 構造・メタ情報・相互参照のルール
+- [00-writing-guide.md](../../kits/templarc-core/design/00-writing-guide.md) - 文章品質（曖昧表現、自己完結性、冗長性）
+- [00-format-guide.md](../../kits/templarc-core/design/00-format-guide.md) - 構造・メタ情報・相互参照のルール

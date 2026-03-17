@@ -4,7 +4,7 @@ depends_on:
   - ./00-writing-guide.md
   - ./00-format-guide.md
 tags: [getting-started, usage, template]
-ai_summary: "templarc-docs をプロジェクトへ導入し、最初にやることと運用の要点をまとめた手引き"
+ai_summary: "templarc-core をプロジェクトへ導入し、最初にやることと運用の要点をまとめた手引き"
 ---
 
 # はじめに（Getting Started）
@@ -12,7 +12,7 @@ ai_summary: "templarc-docs をプロジェクトへ導入し、最初にやる�
 > Status: Active
 > 最終更新: YYYY-MM-DD
 
-本ドキュメントは、templarc-docs をプロジェクトに導入する手順を示す。
+本ドキュメントは、templarc-core をプロジェクトに導入する手順を示す。
 併せて、運用の最小ルールを定義する。
 
 ---
@@ -38,7 +38,6 @@ gh repo create my-project-docs --template krtw00/templarc-docs
 
 1. 本リポジトリをクローンする。
 2. `design/` を対象リポジトリへコピーする。
-3. 利用者向けドキュメントが必要な場合は `docs/` もコピーする。
 
 ---
 
@@ -49,8 +48,10 @@ gh repo create my-project-docs --template krtw00/templarc-docs
 | 1 | `design/00-index.md` を編集する | 目次が機能する |
 | 2 | `design/01-overview/summary.md` を埋める | 1枚で全体像を説明できる |
 | 3 | `design/01-overview/goals.md` と `scope.md` を埋める | 目的と境界が合意される |
-| 4 | 不要なテンプレートを削除する | 読むべき対象が絞られる |
-| 5 | 用語を `design/99-appendix/glossary.md` に追加する | 表記ゆれが減る |
+| 4 | `design/02-architecture/structure.md` と `tech-stack.md` を埋める | 構成と選定理由が共有される |
+| 5 | `design/03-details/flows.md` を埋める | 実装時の参照点ができる |
+| 6 | 不要なオプション拡張を削除する | 読むべき対象が絞られる |
+| 7 | 用語を `design/99-appendix/glossary.md` に追加する | 表記ゆれが減る |
 
 ---
 
@@ -61,6 +62,7 @@ gh repo create my-project-docs --template krtw00/templarc-docs
 
 | ドキュメント | 削除してよい条件 |
 |--------------|------------------|
+| `design/02-architecture/context.md` | システム境界の図解が不要 |
 | `design/03-details/api.md` | APIが存在しない |
 | `design/03-details/ui.md` | UIが存在しない |
 | `design/03-details/data-model.md` | 永続データを持たない |
@@ -92,8 +94,5 @@ gh repo create my-project-docs --template krtw00/templarc-docs
 
 - [00-index.md](./00-index.md) - ドキュメント全体のナビゲーション
 - [00-template-guide.md](./00-template-guide.md) - どこに何を書くかの対応表
-- [00-user-docs-guide.md](../docs/00-user-docs-guide.md) - 利用者向けドキュメントの書き方
 - [00-writing-guide.md](./00-writing-guide.md) - 文章の書き方ルール
 - [00-format-guide.md](./00-format-guide.md) - 構造・メタ情報・図・命名規則
-- [00-git-guide.md](./00-git-guide.md) - Git運用ルール
-- [DESIGN.md](../DESIGN.md) - テンプレートの設計思想

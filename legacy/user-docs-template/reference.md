@@ -16,7 +16,7 @@ ai_summary: "{プロダクト名} の設定・コマンド・仕様を参照で�
 
 ## 用語
 
-重要な用語は[用語集](../design/99-appendix/glossary.md)に定義する。
+重要な用語は[用語集](../../kits/templarc-core/design/99-appendix/glossary.md)に定義する。
 
 ---
 

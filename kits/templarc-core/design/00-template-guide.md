@@ -16,6 +16,10 @@ ai_summary: "設計の内容ごとに、どのドキュメントへ何を書く�
 本ドキュメントは、内容と配置先ドキュメントを対応付ける。
 設計変更時に更新すべきファイルも示す。
 
+`templarc-core` の標準セットは `summary`, `goals`, `scope`, `structure`,
+`tech-stack`, `flows`, `glossary`, `ADR` である。
+`context`, `data-model`, `api`, `ui` は必要な場合のみ残す。
+
 ---
 
 ## どこに何を書くか
@@ -25,7 +29,7 @@ ai_summary: "設計の内容ごとに、どのドキュメントへ何を書く�
 | 1枚で分かる全体像 | [summary.md](./01-overview/summary.md) | 最初に埋める |
 | 目的、課題、成功基準 | [goals.md](./01-overview/goals.md) | 非目標も明記する |
 | 対象範囲、対象外、フェーズ | [scope.md](./01-overview/scope.md) | 境界の合意に使う |
-| システム境界と外部連携 | [context.md](./02-architecture/context.md) | Context図を置く |
+| システム境界と外部連携 | [context.md](./02-architecture/context.md) | 必要なら Context図を置く |
 | 主要コンポーネントと責務 | [structure.md](./02-architecture/structure.md) | Container相当でまとめる |
 | 技術選定と理由 | [tech-stack.md](./02-architecture/tech-stack.md) | 重要判断はADRで根拠を残す |
 | データモデルと状態遷移 | [data-model.md](./03-details/data-model.md) | 永続化しないなら削除してよい |
@@ -33,7 +37,6 @@ ai_summary: "設計の内容ごとに、どのドキュメントへ何を書く�
 | UI仕様 | [ui.md](./03-details/ui.md) | UIがないなら削除してよい |
 | 主要フローと例外 | [flows.md](./03-details/flows.md) | 実装に近い参照点になる |
 | 重要な決定と理由 | [04-decisions/](./04-decisions/) | ADRとして独立させる |
-| 利用者向けの使い方 | [docs/](../docs/) | 目的別（Quickstart/How-to/Reference）で分ける |
 | 用語定義 | [glossary.md](./99-appendix/glossary.md) | 表記ゆれを防ぐ |
 
 ---
@@ -69,6 +72,5 @@ ai_summary: "設計の内容ごとに、どのドキュメントへ何を書く�
 
 - [00-getting-started.md](./00-getting-started.md) - 導入手順と運用の最小ルール
 - [00-index.md](./00-index.md) - ドキュメント全体のナビゲーション
-- [00-user-docs-guide.md](../docs/00-user-docs-guide.md) - ユーザードキュメントの書き方
 - [00-writing-guide.md](./00-writing-guide.md) - 文章の書き方ルール
 - [00-format-guide.md](./00-format-guide.md) - 構造・メタ情報・図・命名規則

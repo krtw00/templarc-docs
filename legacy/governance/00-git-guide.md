@@ -1,13 +1,13 @@
 ---
 depends_on:
-  - ./00-writing-guide.md
+  - ../../kits/templarc-core/design/00-writing-guide.md
 tags: [governance, git, workflow]
 ai_summary: "コミットメッセージ・ブランチ命名・変更履歴管理のGitワークフロー規範"
 ---
 
 # Git規範
 
-> Status: Active
+> Status: Deprecated
 > 最終更新: YYYY-MM-DD
 
 Gitワークフローに関するルールを定義する。コミットメッセージ、ブランチ命名、変更履歴管理を対象とする。
@@ -155,6 +155,6 @@ feat(auth): OAuth2.0を追加した。  # 過去形、末尾ピリオド
 
 ## 関連ドキュメント
 
-- [記載規範](./00-writing-guide.md) - 文章の書き方ルール
-- [フォーマット規範](./00-format-guide.md) - 文書構造・メタ情報・図・命名規則
-- [ドキュメントインデックス](./00-index.md) - ドキュメント全体のナビゲーション
+- [記載規範](../../kits/templarc-core/design/00-writing-guide.md) - 文章の書き方ルール
+- [フォーマット規範](../../kits/templarc-core/design/00-format-guide.md) - 文書構造・メタ情報・図・命名規則
+- [Migration](../../docs/migration.md) - 現行構成への移行ノート

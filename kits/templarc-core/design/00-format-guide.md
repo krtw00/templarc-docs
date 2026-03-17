@@ -36,7 +36,7 @@ ai_summary: "文書構造・分量制限・メタ情報・図・命名規則・�
 見出しテキスト自体が識別子として機能する。IDや番号を別途付与しない。
 
 - 見出し名は一意かつ具体的に書く（「概要」「詳細」のような汎用名は避ける）
-- 相互参照時はMarkdownアンカーを使用: `[ユーザー登録フロー](./flows.md#ユーザー登録フロー)`
+- 相互参照時はMarkdownアンカーを使用: `[ユーザー登録フロー](./03-details/flows.md#ユーザー登録フロー)`
 - テーブル内で列挙する場合のみ、行番号列（`#`）を付与する
 - テーブルとセクション見出しで相互参照する場合、ドメイン固有のプレフィックスID（`F001`、`S001`等）を許容する
 
@@ -72,7 +72,7 @@ ai_summary: "文書構造・分量制限・メタ情報・図・命名規則・�
 相対パスを使用する：
 
 ```markdown
-[参照先のタイトル](../path/to/file.md)
+[参照先のタイトル](./03-details/flows.md)
 ```
 
 ### 関連ドキュメントセクション
@@ -82,8 +82,8 @@ ai_summary: "文書構造・分量制限・メタ情報・図・命名規則・�
 ```markdown
 ## 関連ドキュメント
 
-- [データモデル](../03-details/data-model.md) - エンティティ定義とER図
-- [APIエンドポイント](../03-details/api.md) - REST APIの仕様
+- [データモデル](./03-details/data-model.md) - エンティティ定義とER図
+- [APIエンドポイント](./03-details/api.md) - REST APIの仕様
 ```
 
 ---
@@ -121,7 +121,7 @@ ADR（決定記録）は独自のステータス語彙を持つ: **Proposed** / 
 ```markdown
 ---
 depends_on:
-  - ../path/to/dependency.md
+  - ./01-overview/summary.md
 tags: [category1, category2]
 ai_summary: "このドキュメントの内容を1文で要約"
 ---
@@ -198,5 +198,4 @@ README.md, LICENSE, CONTRIBUTING.md, CHANGELOG.md
 ## 関連ドキュメント
 
 - [記載規範](./00-writing-guide.md) - 文章の書き方ルール
-- [Git規範](./00-git-guide.md) - コミットメッセージ・ブランチ命名・変更履歴管理
 - [ドキュメントインデックス](./00-index.md) - ドキュメント全体のナビゲーション

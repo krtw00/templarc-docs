@@ -22,9 +22,9 @@ Closes #
 
 ## チェックリスト
 
-- [ ] 記載規範（`design/00-writing-guide.md`）に従っている（設計ドキュメントの場合）
-- [ ] フォーマット規範（`design/00-format-guide.md`）に従っている（設計ドキュメントの場合）
-- [ ] ユーザードキュメント規範（`docs/00-user-docs-guide.md`）に従っている（利用者向けの場合）
+- [ ] `templarc-core` の変更は `kits/templarc-core/design/00-writing-guide.md` に従っている
+- [ ] `templarc-core` の変更は `kits/templarc-core/design/00-format-guide.md` に従っている
+- [ ] `ai-workflow` の変更は関連テンプレート間で整合している
 - [ ] Mermaid図が正しくレンダリングされる
 - [ ] リンク切れがない
 - [ ] 用語集と整合性が取れている

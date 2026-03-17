@@ -33,6 +33,10 @@ flowchart LR
 
 ## ドキュメント一覧
 
+`templarc-core` の標準セットは `summary`, `goals`, `scope`, `structure`,
+`tech-stack`, `flows`, `glossary`, `ADR` である。
+それ以外は必要な場合のみ残すオプション拡張とする。
+
 ### 00 - メタドキュメント
 
 | ドキュメント | 説明 |
@@ -42,7 +46,6 @@ flowchart LR
 | [00-template-guide.md](./00-template-guide.md) | 内容と配置先の対応表（どこに何を書くか） |
 | [00-writing-guide.md](./00-writing-guide.md) | 記載規範（文章の書き方） |
 | [00-format-guide.md](./00-format-guide.md) | フォーマット規範（構造・メタ情報・図・命名） |
-| [00-git-guide.md](./00-git-guide.md) | Git規範（コミット・ブランチ・変更履歴） |
 
 ### 01 - Overview（全体像）
 
@@ -56,7 +59,7 @@ flowchart LR
 
 | ドキュメント | 説明 |
 |--------------|------|
-| [context.md](./02-architecture/context.md) | システム境界・外部連携 |
+| [context.md](./02-architecture/context.md) | システム境界・外部連携（オプション） |
 | [structure.md](./02-architecture/structure.md) | 主要コンポーネント構成 |
 | [tech-stack.md](./02-architecture/tech-stack.md) | 技術スタック |
 
@@ -64,7 +67,7 @@ flowchart LR
 
 | ドキュメント | 説明 |
 |--------------|------|
-| [data-model.md](./03-details/data-model.md) | データモデル・ER図 |
+| [data-model.md](./03-details/data-model.md) | データモデル・ER図（オプション） |
 | [api.md](./03-details/api.md) | API設計（オプション） |
 | [ui.md](./03-details/ui.md) | UI設計（オプション） |
 | [flows.md](./03-details/flows.md) | 主要フロー・シーケンス |
@@ -91,7 +94,7 @@ flowchart LR
 2. [00-template-guide.md](./00-template-guide.md) - どこに何を書くかを把握
 3. [summary.md](./01-overview/summary.md) - プロジェクト概要を把握
 4. [goals.md](./01-overview/goals.md) - 目的を理解
-5. [context.md](./02-architecture/context.md) - システム境界を確認
+5. [structure.md](./02-architecture/structure.md) - 主要構成を確認
 
 ### 設計を理解したい場合
 
@@ -101,13 +104,9 @@ flowchart LR
 
 ### 実装時に参照する場合
 
-1. [data-model.md](./03-details/data-model.md) - データ構造
-2. [flows.md](./03-details/flows.md) - 処理フロー
-3. [glossary.md](./99-appendix/glossary.md) - 用語確認
-
-### 使い方（利用者向け）を探す場合
-
-1. [docs/00-index.md](../docs/00-index.md) - 利用者向けドキュメントの目次
+1. [flows.md](./03-details/flows.md) - 処理フロー
+2. [glossary.md](./99-appendix/glossary.md) - 用語確認
+3. 必要に応じてオプション拡張を参照する
 
 ---
 
@@ -115,5 +114,3 @@ flowchart LR
 
 - [記載規範](./00-writing-guide.md) - 文章の書き方ルール
 - [フォーマット規範](./00-format-guide.md) - 構造・メタ情報・図・命名規則
-- [Git規範](./00-git-guide.md) - コミット・ブランチ・変更履歴
-- [ユーザードキュメント](../docs/00-index.md) - 利用者向けドキュメントの目次
