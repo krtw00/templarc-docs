@@ -19,6 +19,7 @@
 - docs/how-to-combine.md（templarc-core と ai-workflow の併用方法）
 - docs/migration.md（旧構成からの移行ノート）
 - legacy/README.md（legacy 配下の説明）
+- examples/ai-workflow/*.example.md（ai-workflow の記入例）
 - design/00-format-guide.md（フォーマット規範）
 - design/00-getting-started.md（導入手順）
 - design/00-template-guide.md（配置ガイド）
@@ -33,6 +34,7 @@
 
 - README.md と README.ja.md に再整理方針を追加
 - リポジトリ構成を `kits/`, `docs/`, `legacy/`, `examples/` に再編
+- `ai-workflow` のテンプレートを実運用向けに具体化
 - design/00-writing-guide.md を記載規範（テキスト品質）とフォーマット規範（構造）に分割
 - 設計（`design/`）と利用者向け（`docs/`）のドキュメントを分離
 

@@ -1,4 +1,9 @@
 # Examples
 
-今後、`templarc-core` と `ai-workflow` を組み合わせたサンプルを配置する。
-現時点ではテンプレート整理を優先し、例は未追加とする。
+`templarc-core` と `ai-workflow` の記入例を配置する。
+
+## 含まれるもの
+
+- `ai-workflow/PROJECT_BRIEF.example.md`
+- `ai-workflow/TASK_BRIEF.example.md`
+- `ai-workflow/PR_CHECKLIST.example.md`
